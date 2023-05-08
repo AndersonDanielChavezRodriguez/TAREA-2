@@ -5,26 +5,110 @@
 ::-webkit-scrollbar{
     width: 0px;
 }
-.title{
-    font-family: 'Righteous', cursive;
-    font-size: 50px;
-    color: #29CBEB;
-    text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000,  -2px -2px 0 #000;
+body{
+    padding-top: 90px;
 }
-.contenedor{
-    max-width: 100%;
-    background-color: #137FF1;
-    justify-content: center;
-    height: 50px;
+.barra{
+    background-color:rgb(22, 180, 185);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-.logo1{
-    width: 40px;
-    height: 40px;
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
 }
-.menu a{
-    float: left;
-    margin: 20px;
-	color:#fff;
-	text-decoration: none;
-    text-align: right;
+.nav-link{
+    color: white;
+    text-decoration: none;
 }
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-link:hover{
+    background-color: rgb(57, 109, 110);
+    transition: 1s;
+}
+.bt1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width:768px) { 
+    body{
+        padding-top: 70px;
+    }
+    .barra{
+        height: 60px;
+    }
+    .logo{
+        font-size: 30px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: rgb(70, 85, 85);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        height: calc(100%-60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.5s;
+        padding: 0;
+    }
+    .nav-menu-item{
+        line-height: 70px;
+    }
+    .nav-menu-link:hover{
+        background: none;
+        color: rgb(22, 180, 185);
+    }
+    .bt1{
+        display: block;
+    }
+    .nav-menu_visible{
+        left: 0;
+    }
+    .bt1:focus:not(:focus-visible){
+        outline: none;
+    }
+}
+
+
+
+
+
+
