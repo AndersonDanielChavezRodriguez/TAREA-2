@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/icon.png">
+    <title>DELIVERY</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/83c7728ede.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="barra">
+        <nav class="navegacion">
+            <a href="index.html" class="logo nav-link">
+                <img src="/img/logo.jpg" alt="logo" class="lg">
+            </a>
+            <button class="bt1" aria-label="abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">INICIO</a></li>
+                <li class="nav-menu-item"><a href="reservas.html" class="nav-menu-link nav-link">RESERVAS</a></li>
+                <li class="nav-menu-item"><a href="delivery.html" class="nav-menu-link nav-link">DELIVERY</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <center>
+        <div class="trasfondo">
+            <div class="fondo">
+                <h1 class="title">RESTAURANT</h1>
+            </div>
+        </div>
+    </center>
+    <main>
+        <center>
+            <div class="pago">
+                
+                    <br><br>
+                    <h1 class="title2">METODO DE PAGO</h1>
+                    <br><br>
+                    <p>TITULAR DE LA TARJETA: <input type="text" name="titular" id="log_in" size="50" placeholder="Ingresar nombre completo" required></p>
+                    <br>
+                    <p>N° DE TARJETA: <input type="tel" name="tarjeta" id="log_in" size="50" placeholder="Campo obligatorio" required></p>
+                    <br>
+                    <p>FECHA DE VENCIMIENTO: <input type="month" name="fecha" id="log_in ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CVV: <input type="tel" name="cvv" id="log_in" size="3"></p>
+                    <br>
+                    <p>INGRESAR CORREO: <input type="email" name="email" id="log_in" size="30" placeholder="Campo obligatorio"></p>
+                    <br>
+                    <input type="checkbox" name="check1" id="log_in" class="checklist"><label for="log_in"> Acepto terminos y condiciones del envio</label>
+                    <br><br>
+                    <input type="checkbox" name="check1" id="log_in" class="checklist"><label for="log_in"> Acepto recibir promociones y actualizaciones de la carta a mi correo</label>
+                    <br><br>
+                    <button type="submit" class="bt_reser" href="del">
+                        <a class="reser" href="deli.html">PAGAR</a> 
+                    </button>
+                    <br><br>
+            </div>
+        </center>
+    </main>
+    <footer class="pie_pagina">
+        <div class="final">
+            <div class="box">
+                <figure class="fig">
+                    <a href="index.html">
+                        <img src="/img/logo.jpg" alt="logo" class="logo_final">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <a href="index.html" id="indice">INICIO</a>
+                <a href="reservas.html" id="indice">RESERVAS</a>
+                <a href="delivery.html" id="indice">DELIVERY</a>
+            </div>
+            <div class="box">
+                <h1 class="title_final">REDES SOCIALES</h1>
+                    <a href="" class="icon1">
+                        <i class="fa-brands fa-facebook fa-bounce fa-4x" id="icon"></i>
+                    </a>
+                    <a href="" class="icon1">
+                        <i class="fa-brands fa-github fa-bounce fa-4x" id="icon"></i>
+                    </a>
+                <h1 class="title_final">CONTACTOS</h1>
+                <p class="contac">CORREO: <a href="mailto:achavezrodrigez7@gmail.com?Subject=INDICAR%20SU%20CONSULTA%20AQUI" target="_blank" id="enlace">achavezrodrigez7@gmail.com</a></p>
+                <p class="contac">NÚMERO: <a href="tel:+51953031367" id="enlace">953031367</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -75,14 +75,14 @@ body{
 }
 
 .trasfondo{
-    background-image: url(trasfondo.png);
+    background-image: url(/img/trasfondo.png);
     width: 100%;
     max-width: 1366px;
     height: 500px;
 }
 
 .fondo{
-    background-image: url(fondo.webp);
+    background-image: url(/img/fondo.webp);
     background-size: cover;
     width: 100%;
     max-width: 1200px;
@@ -132,12 +132,14 @@ body{
     position: relative;
 
 }
+
 .box{
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
 }
+
 .final{
     width: 100%;
     max-width: 1366px;
@@ -146,6 +148,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
+    background-color: rgba(55, 88, 180, 0.37);
 }
 
 .fig{
@@ -178,19 +181,59 @@ body{
     text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px 1px 0 white, -1px -1px 0 white ;
 }
 
-.icon1{
-    width: 30px;
-    height: 30px;
-    text-decoration: none;
+.title_final{
+    margin-bottom: 25px;
 }
 
+#icon{
+    color: #000;
+    margin-left: 40px;
+}
 
+#numb{
+    margin-top: 1rem;
+    width: 3rem;
+    border: 3px solid #000;
+}
 
+.historia p{
+    font-size: 20px;
+}
 
+.bt_reser{
+    border: 3px solid rgb(55, 88, 180);
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(55, 88, 180);
+}
 
+.reser{
+    text-decoration: none;
+    color: white;
+}
 
+.check{
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
 
+.deli{
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
 
+input{
+    height: 2rem;
+    
+}
+
+.checklist{
+    height: 0.8rem;
+}
 
 
 
