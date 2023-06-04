@@ -102,16 +102,20 @@ body{
 .his1{
     margin: 0 80px;
 }
-
+main{
+    width: 100%;
+}
 .menu{
-    display: flex;
-    width: 1366px;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    max-width: 1366px;
 }
 
 .card{
-    margin: 10px 40px;
-    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 90%;
     border-style: dotted;
     border-width: 6px;
     border-color: rgb(55, 88, 180);
@@ -120,6 +124,7 @@ body{
 }
 
 .card img{
+    width: 250px;
     border-radius: 10%;
 }
 
@@ -301,7 +306,6 @@ input{
     }
     
     .fondo{
-        background-image: url(fondo.webp);
         background-size: cover;
         width: 100%;
         max-width: 602px;
@@ -310,10 +314,43 @@ input{
     
     .title{
         font-size: 50px;
-        color: white;
         text-align: center;
         line-height: 300px
     }
+    
+    .logo_final{
+        width: 160px;
+    }
+    
+    #indice{
+        font-size: 30px;
+    }
+    
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(2,0.5fr);
+        width: 1366px;
+        max-width: 100%;
+    }
+    
+    .card{
+        width: 90%;
+        border-radius: 15%;
+        padding: 20px;
+    }
+    
+    .card img{
+        width: 190px;
+    }
+    
+    #enlace{
+        font-size: 15px;
+    }
+    
+    #icon{
+        margin-left: 20px;
+    }
+
 }
 
 
