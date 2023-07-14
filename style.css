@@ -75,14 +75,14 @@ body{
 }
 
 .trasfondo{
-    background-image: url(/img/trasfondo.png);
+    background-image: url(img/trasfondo.png);
     width: 100%;
     max-width: 1366px;
     height: 500px;
 }
 
 .fondo{
-    background-image: url(/img/fondo.webp);
+    background-image: url(img/fondo.webp);
     background-size: cover;
     width: 100%;
     max-width: 1200px;
